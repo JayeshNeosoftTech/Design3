@@ -1,0 +1,126 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #262626;
+    display: flex;
+    align-items: baseline;
+}
+header h4{
+    font-family: 'Poppins-regular', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+#A1{
+    font-family: 'Poppins-medium', sans-serif;
+    font-size: 14px;
+    color: #EE9617;
+    text-decoration: none;
+    margin-left: 3px;
+}
+#H4-2{
+    margin-left: 20%;
+}
+#A2{
+    font-family: 'Poppins-regular', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20%;
+    font-weight: bold;
+}
+#Flex{
+    width: 100%;
+    height: 600px;
+    /* display: flex; */
+    background-color: #595959;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+nav h2{
+    font-family: 'Poppins-regular', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 25px 0px 0px 100px;
+}
+nav ul{
+    list-style: none;
+    margin: 40px 0px 0px 20%;
+}
+nav li{
+    display: inline;
+    margin: 0px 25px;
+    font-size: 15px;
+    font-family: 'Poppins-medium', sans-serif;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#FDiv{
+    width: 100%;
+    display: inline-block;
+    margin-top: 100px;
+}
+figcaption{
+    font-family: 'Poppins-regular', sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: 30px 0px 0px 5%;
+    height: fit-content;
+    width: fit-content;
+}
+#FDiv h2, h3{
+    font-family: 'Poppins-regular', sans-serif;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 5%;
+    height: fit-content;
+    width: fit-content;
+}
+#FDiv h3{font-size: 15px;}
+#FDiv h1{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 45px;
+    margin: 8px 0px 0px 5%;
+    height: fit-content;
+    width: fit-content;
+}
+#Fbtn{
+    width: 170px;
+    height: 40px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Poppins-medium', sans-serif;
+    font-weight: bold;
+    color: #D44800;
+    border-radius: 20px;
+    margin: 50px 0px 0px 5%;
+}
+#FDiv img{
+    width: 20%;
+    height: 30%;
+    margin-left: 60%;
+    display: inline-block;
+    margin-left: 60%;
+    position: absolute;
+}
